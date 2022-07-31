@@ -1,0 +1,16 @@
+/* Task:
+Find the nearest square number, nearest_sq(n), of a positive integer n.
+
+Example: 
+NearestSq(10); //9
+NearestSq(111); //121
+/*
+
+//My Solution
+function nearestSq(n){
+    return Math.pow(Math.round(Math.sqrt(n)), 2);
+}
+
+//Or
+
+const nearestSq = (n) => Math.pow(Math.round(Math.sqrt(n)), 2);

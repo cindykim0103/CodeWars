@@ -1,0 +1,14 @@
+/* Task: Complete the solution so that it reverses the string passed into it.
+
+ex. 'world'  =>  'dlrow'
+    'word'   =>  'drow'
+ */
+
+//My Solution
+function solution(str){
+  return str.split('').reverse().join('');  
+}
+
+//Or
+
+const solution = (str) => str.split('').reverse().join('');  

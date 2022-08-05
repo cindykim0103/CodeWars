@@ -1,0 +1,7 @@
+//Task: Write a program that takes an array, the calculates and shows the sum of its values. 
+
+//My Solution:
+
+function sumOfValues(arr) {
+  return arr.reduce((acc,c) => acc + c, 0);
+}
